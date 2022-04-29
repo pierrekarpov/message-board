@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "sourceMap": true,
+    "outDir": "dist",
+    "strict": true,
+    "lib": [
+      "esnext"
+    ],
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "target": "esnext",
+    "moduleResolution": "Node",
+    "types": [
+      "node",
+      "jest"
+    ]
+  }
+}
